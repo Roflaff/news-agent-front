@@ -21,6 +21,16 @@ export function KeywordCloud({ detailed = false }: KeywordCloudProps) {
     { text: "국제관계", size: "text-xl", weight: 189, color: "bg-chart-5" },
     { text: "금융정책", size: "text-2xl", weight: 223, color: "bg-primary" },
     { text: "보건의료", size: "text-lg", weight: 145, color: "bg-secondary" },
+  { text: "노동정책", size: "text-base", weight: 100, color: "bg-chart-1" },
+  { text: "청년정책", size: "text-lg", weight: 100, color: "bg-chart-2" },
+  { text: "과학기술", size: "text-xl", weight: 100, color: "bg-chart-3" },
+  { text: "문화예술", size: "text-2xl", weight: 100, color: "bg-chart-4" },
+  { text: "인구정책", size: "text-lg", weight: 100, color: "bg-chart-5" },
+  { text: "통일외교", size: "text-base", weight: 100, color: "bg-primary" },
+  { text: "지방분권", size: "text-xl", weight: 100, color: "bg-secondary" },
+  { text: "여성정책", size: "text-lg", weight: 100, color: "bg-accent" },
+  { text: "교통물류", size: "text-base", weight: 100, color: "bg-chart-1" },
+  { text: "에너지정책", size: "text-lg", weight: 100, color: "bg-chart-2" },
   ]
 
   return (
